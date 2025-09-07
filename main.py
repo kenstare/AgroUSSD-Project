@@ -21,9 +21,9 @@ def USSD_menu():
         choice = input("Select an option: ")
 
         if choice == "1":
-            farmer_menu(farmer, market)
+            farmer_menu(farmer1, market)
         elif choice =="2":
-            buyer_menu(buyer, market)
+            buyer_menu(buyer1, market)
         elif choice == "3":
             print("Goodbye")
             break
