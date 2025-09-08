@@ -24,7 +24,7 @@ def USSD_menu():
             farmer_menu(farmer1, market)
         elif choice =="2":
             buyer_menu(buyer1, market)
-        elif choice == "3":
+        elif choice == "0":
             print("Goodbye")
             break
         else:
