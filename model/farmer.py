@@ -7,6 +7,6 @@ class farmer(User):
         self.harvest = []
 
     def add_harvest(self, crop_name, quantity):
-        harvest = {"Crop": crop_name, "Quantity": quantity}
+        harvest = {"crop": crop_name, "quantity": quantity}
         self.harvest.append(harvest)
         return f"Harvest added: {crop_name}\nQuantity: {quantity}"
