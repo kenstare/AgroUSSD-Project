@@ -6,7 +6,7 @@ class buyer(User):
         self.interest = []
 
     def show_interest(self, crop_name, quantity):
-        interest = {"Crop Name": crop_name, "Quantity": quantity}
+        interest = {"crop Name": crop_name, "quantity": quantity}
         self.interest.append(interest)
         return f"Interested in: {crop_name}\nquantity: {quantity}"
     
