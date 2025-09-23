@@ -1,0 +1,15 @@
+{
+    "08107869063": {
+        "name": "Ade",
+        "phone": "08107869063",
+        "location": "Abeokuta",
+        "password": "1234",
+        "harvest": [
+            {
+                "crop": "Rice",
+                "quantity": 10,
+                "price": 80000.0
+            }
+        ]
+    }
+}
